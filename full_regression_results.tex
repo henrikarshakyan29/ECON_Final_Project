@@ -1,0 +1,103 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Determinants of AI Adoption: Full Results}
+\begin{tabular}{l*{3}{c}}
+\toprule
+                    &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}\\
+                    &\multicolumn{1}{c}{Gen AI (Base)}&\multicolumn{1}{c}{Gen AI (Full)}&\multicolumn{1}{c}{Ops AI (Placebo)}\\
+\midrule
+d\_online\_eu         &       0.045\sym{***}&       0.058\sym{**} &      -0.007         \\
+                    &     (0.015)         &     (0.023)         &     (0.013)         \\
+\addlinespace
+d\_exp\_eu            &       0.009         &      -0.007         &       0.021\sym{***}\\
+                    &     (0.013)         &     (0.019)         &     (0.007)         \\
+\addlinespace
+w\_score             &       0.006\sym{***}&       0.005\sym{***}&       0.003\sym{***}\\
+                    &     (0.001)         &     (0.001)         &     (0.001)         \\
+\addlinespace
+k2n=1               &       0.000         &       0.000         &       0.000         \\
+                    &         (.)         &         (.)         &         (.)         \\
+\addlinespace
+k2n=2               &       0.012         &       0.015         &       0.001         \\
+                    &     (0.011)         &     (0.014)         &     (0.011)         \\
+\addlinespace
+k2n=3               &       0.000         &      -0.007         &       0.002         \\
+                    &     (0.010)         &     (0.014)         &     (0.014)         \\
+\addlinespace
+k2n=4               &       0.046\sym{**} &       0.018         &       0.036         \\
+                    &     (0.021)         &     (0.023)         &     (0.036)         \\
+\addlinespace
+d\_exp\_eeu           &                     &      -0.010         &       0.004         \\
+                    &                     &     (0.018)         &     (0.011)         \\
+\addlinespace
+d\_exp\_cis           &                     &      -0.015         &       0.000         \\
+                    &                     &     (0.016)         &         (.)         \\
+\addlinespace
+d\_exp\_oth           &                     &       0.007         &      -0.013         \\
+                    &                     &     (0.011)         &     (0.009)         \\
+\addlinespace
+d\_online\_eeu        &                     &       0.010         &       0.000         \\
+                    &                     &     (0.023)         &         (.)         \\
+\addlinespace
+d\_online\_cis        &                     &      -0.006         &       0.000         \\
+                    &                     &     (0.030)         &         (.)         \\
+\addlinespace
+d\_online\_oth        &                     &      -0.014         &      -0.004         \\
+                    &                     &     (0.016)         &     (0.010)         \\
+\addlinespace
+k3n=2               &                     &       0.000         &       0.000         \\
+                    &                     &         (.)         &         (.)         \\
+\addlinespace
+k3n=3               &                     &      -0.010         &       0.003         \\
+                    &                     &     (0.011)         &     (0.010)         \\
+\addlinespace
+k3n=4               &                     &       0.011         &       0.010         \\
+                    &                     &     (0.011)         &     (0.010)         \\
+\addlinespace
+k3n=5               &                     &       0.006         &       0.000         \\
+                    &                     &     (0.017)         &         (.)         \\
+\addlinespace
+k3n=6               &                     &       0.017         &      -0.003         \\
+                    &                     &     (0.019)         &     (0.009)         \\
+\addlinespace
+C: Manufacturing    &                     &       0.000         &       0.000         \\
+                    &                     &         (.)         &         (.)         \\
+\addlinespace
+D: Electricity/Gas  &                     &       0.093         &       0.000         \\
+                    &                     &     (0.108)         &         (.)         \\
+\addlinespace
+E: Water/Waste      &                     &       0.056         &       0.036         \\
+                    &                     &     (0.034)         &     (0.029)         \\
+\addlinespace
+F: Construction     &                     &       0.001         &       0.000         \\
+                    &                     &     (0.014)         &         (.)         \\
+\addlinespace
+G: Trade (Retail)   &                     &       0.009         &      -0.003         \\
+                    &                     &     (0.010)         &     (0.007)         \\
+\addlinespace
+H: Transport        &                     &       0.012         &       0.000         \\
+                    &                     &     (0.018)         &         (.)         \\
+\addlinespace
+I: Hospitality      &                     &       0.002         &       0.000         \\
+                    &                     &     (0.011)         &         (.)         \\
+\addlinespace
+J: IT Sector        &                     &       0.085\sym{***}&       0.023         \\
+                    &                     &     (0.022)         &     (0.017)         \\
+\addlinespace
+L: Real Estate      &                     &       0.039         &       0.000         \\
+                    &                     &     (0.031)         &         (.)         \\
+\addlinespace
+M: Consulting/Science&                     &       0.020         &       0.000         \\
+                    &                     &     (0.017)         &         (.)         \\
+\addlinespace
+N: Admin/Support    &                     &       0.000         &       0.000         \\
+                    &                     &         (.)         &         (.)         \\
+\addlinespace
+S: Other Services   &                     &       0.089         &       0.081         \\
+                    &                     &     (0.088)         &     (0.096)         \\
+\midrule
+Observations        &        1585         &        1507         &         788         \\
+\bottomrule
+\multicolumn{4}{l}{\footnotesize Values represent Average Marginal Effects (dy/dx). Standard errors in parentheses.}\\
+\end{tabular}
+\end{table}
